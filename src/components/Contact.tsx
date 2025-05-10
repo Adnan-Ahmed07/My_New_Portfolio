@@ -54,16 +54,33 @@ const Contact: React.FC = () => {
     setErrors(newErrors);
     return isValid;
   };
-  
+  //fixed need
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
-    setFormData((prev) => ({ ...prev, [name]: value }));
     
-    if (errors[name as keyof FormErrors]) {
-      setErrors((prev) => ({ ...prev, [name]: undefined }));
+    let stateKey: keyof FormState;
+    if (name === 'from_name') {
+      
+      stateKey = 'name';
+    } else if (name === 'from_email') {
+      
+      stateKey = 'email';
+    } else {
+      
+      stateKey = name as keyof FormState;
+    }
+
+    setFormData((prev) => ({
+      ...prev,
+      [stateKey]: value,
+    }));
+    
+    
+    if (stateKey in errors) {
+      setErrors((prev) => ({ ...prev, [stateKey]: undefined }));
     }
   };
-  
+  //fixed End
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
