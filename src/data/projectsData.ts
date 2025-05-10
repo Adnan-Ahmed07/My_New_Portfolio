@@ -3,8 +3,8 @@ import { Project } from '../types';
 const projectsData: Project[] = [
   {
     id: 1,
-    title: 'E-Commerce Dashboard',
-    description: 'A comprehensive admin dashboard for e-commerce platforms with analytics, inventory management, and order processing capabilities.',
+    title: 'MERN Stack E-Commerce Website',
+    description: 'A full-fledged e-commerce platform built with the MERN stack, featuring user authentication, product management, and a seamless shopping experience And have Admin Panel.',
     image: 'https://iili.io/3kkNFls.png',
     technologies: ['React', 'JavaScript', 'TailwindCSS', 'shadcn ui'],
     githubUrl: 'https://github.com/Adnan-Ahmed07/Adnan-Ahmed07-MERN-Stack-Ecommerce',
@@ -30,30 +30,31 @@ const projectsData: Project[] = [
   },
   {
     id: 4,
+    title: 'AD E-Commerce App',
+    description: 'AD E-Commerce App in React Native with Node.js backend,Custom Css,Database mongoDB with Admin panel and user panel and payment gateway.',
+    image: 'https://iili.io/3vfwZge.png',
+    technologies: ['React Native', 'Node.js', 'TypeScript', 'MongoDB'],
+    githubUrl: 'https://github.com/Adnan-Ahmed07/AdnanEcommerce_APP',
+    liveUrl: null,
+  },
+  {
+    id: 5,
+    title: 'Adnan Food App',
+    description: 'A food delivery app that allows users to browse restaurants, view menus, and place orders for delivery or pickup.',
+    image: 'https://iili.io/3vqWHOl.png',
+    technologies:['React Native','TypeScript'],
+    githubUrl: 'https://github.com/Adnan-Ahmed07/Adnan-Food-App',
+    liveUrl: null,
+  },
+  
+  {
+    id: 6,
     title: 'Recipe Finder',
     description: 'A culinary app that helps users discover recipes based on available ingredients, dietary preferences, and cuisine types.',
     image: 'https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     technologies: ['React', 'Firebase', 'Spoonacular API', 'Styled Components'],
     githubUrl: 'https://github.com/esteak/recipe-finder',
     liveUrl: 'https://recipe-finder-app.netlify.app',
-  },
-  {
-    id: 5,
-    title: 'Collaborative Whiteboard',
-    description: 'A real-time collaborative drawing and brainstorming tool with multi-user support and instant sharing capabilities.',
-    image: 'https://images.pexels.com/photos/6444/pencil-typography-black-design.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    technologies: ['Vue.js', 'Socket.io', 'Express', 'Canvas API'],
-    githubUrl: 'https://github.com/esteak/collaborative-whiteboard',
-    liveUrl: 'https://collab-whiteboard.herokuapp.com',
-  },
-  {
-    id: 6,
-    title: 'AD E-Commerce App',
-    description: 'AD E-Commerce App in React Native with Node.js backend,Custom Css,Database mongoDB.with Admin panel and user panel and payment gateway.',
-    image: 'https://iili.io/3vfwZge.png',
-    technologies: ['React Native', 'Node.js', 'TypeScript', 'MongoDB'],
-    githubUrl: 'https://github.com/Adnan-Ahmed07/AdnanEcommerce_APP',
-    liveUrl: null,
   },
 ];
 
