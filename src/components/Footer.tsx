@@ -57,7 +57,7 @@ const Footer: React.FC = () => {
             
             <div className="flex space-x-4">
               <a 
-                href="https://github.com/esteak" 
+                href="https://github.com/Adnan-Ahmed07" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-500 hover:text-blue-500 dark:text-gray-400 dark:hover:text-blue-400 transition-colors"
@@ -68,7 +68,7 @@ const Footer: React.FC = () => {
                 </svg>
               </a>
               <a 
-                href="https://linkedin.com/in/esteak" 
+                href="https://www.linkedin.com/in/esteak-ahmed-adnan/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-500 hover:text-blue-500 dark:text-gray-400 dark:hover:text-blue-400 transition-colors"

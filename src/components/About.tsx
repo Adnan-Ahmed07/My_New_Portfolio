@@ -76,14 +76,14 @@ const About: React.FC = () => {
                 <div className="flex-shrink-0 mt-1">
                   <Calendar size={20} className="text-blue-500" />
                 </div>
-                <div className="ml-3">
+                {/* <div className="ml-3">
                   <h4 className="text-lg font-medium text-gray-900 dark:text-white">
                     Experience
                   </h4>
                   <p className="text-gray-600 dark:text-gray-400">
                     5+ years of professional development experience
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

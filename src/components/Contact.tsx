@@ -73,7 +73,7 @@ const Contact: React.FC = () => {
       try {
         await emailjs.sendForm(
           'service_gbwmx0k',
-          'template_wx57cx6',
+          'template_e8i42l7',
           formRef.current!,
           'W-nz1G4_ls2zyvMNg'
         );
@@ -188,7 +188,7 @@ const Contact: React.FC = () => {
                   </svg>
                 </a>
                 <a 
-                  href="https://linkedin.com/in/esteak" 
+                  href="https://www.linkedin.com/in/esteak-ahmed-adnan/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center text-gray-700 dark:text-gray-300 hover:bg-blue-500 hover:text-white dark:hover:bg-blue-500 transition-colors"
@@ -242,7 +242,7 @@ const Contact: React.FC = () => {
                     <input
                       type="text"
                       id="name"
-                      name="name"
+                      name="from_name"
                       value={formData.name}
                       onChange={handleChange}
                       className={`w-full px-4 py-3 rounded-lg border ${
@@ -266,7 +266,7 @@ const Contact: React.FC = () => {
                     <input
                       type="email"
                       id="email"
-                      name="email"
+                      name="from_email"
                       value={formData.email}
                       onChange={handleChange}
                       className={`w-full px-4 py-3 rounded-lg border ${
